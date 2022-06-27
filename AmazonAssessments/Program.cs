@@ -1,5 +1,6 @@
 ﻿using AmazonAssessments.Challenges.Anthony;
 using AmazonAssessments.Challenges.AttemptOne;
+using AmazonAssessments.Challenges.AttemptTwo;
 using AmazonAssessments.Challenges.Michael;
 
 namespace AmazonAssessments
@@ -100,6 +101,40 @@ namespace AmazonAssessments
             Console.WriteLine($"Result of Sample Case 1: {string.Join(',', NumberOfItems.Execute(sampleCase16, new List<int> { 1 }, new List<int> { 6 }))}"); // [2]
 
             Console.WriteLine("End Q 06: Coding Assessment Demo - Attempt 1 - C 02 \n");
+
+            #endregion
+
+            #region Q 07: Coding Assessment Demo - Attempt 2 - C 01
+
+            Console.WriteLine("Start Q 07: Coding Assessment Demo - Attempt 2 - C 01");
+
+            var example7 = new List<string> { "88 99 200", "88 99 300", "99 32 100", "12 12 15" };
+            Console.WriteLine($"Result of Example: {string.Join(',', ProcessLogs.Execute(example7, 2))}"); // ["88","99"]
+
+            var sampleCase07 = new List<string> { "1 2 50", "1 7 70", "1 3 20", "2 2 17" };
+            Console.WriteLine($"Result of Sample Case 0: {string.Join(',', ProcessLogs.Execute(sampleCase07, 2))}"); // ["1","2"]
+
+            var sampleCase17 = new List<string> { "9 7 50", "22 7 20", "33 7 50", "22 7 30" };
+            Console.WriteLine($"Result of Sample Case 1: {string.Join(',', ProcessLogs.Execute(sampleCase17, 3))}"); // ["7"]
+
+            Console.WriteLine("End Q 07: Coding Assessment Demo - Attempt 2 - C 01 \n");
+
+            #endregion
+
+            #region Q 07: Coding Assessment Demo - Attempt 2 - C 01
+
+            Console.WriteLine("Start Q 08: Coding Assessment Demo - Attempt 2 - C 02");
+
+            var example8 = new List<string> { "110", "110", "001" };
+            Console.WriteLine($"Result of Example: {string.Join(',', CountGroups.Execute(example8))}"); // 2
+
+            var sampleCase08 = new List<string> { "1100", "1110", "0110", "0001" };
+            Console.WriteLine($"Result of Sample Case 0: {string.Join(',', CountGroups.Execute(sampleCase08))}"); // 2
+
+            var sampleCase18 = new List<string> { "10000", "01000", "00100", "00010", "00001" };
+            Console.WriteLine($"Result of Sample Case 1: {string.Join(',', CountGroups.Execute(sampleCase18))}"); // 5
+
+            Console.WriteLine("End Q 08: Coding Assessment Demo - Attempt 2 - C 02 \n");
 
             #endregion
 
