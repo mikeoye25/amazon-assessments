@@ -1,4 +1,5 @@
 ﻿using AmazonAssessments.Challenges.Anthony;
+using AmazonAssessments.Challenges.AttemptOne;
 using AmazonAssessments.Challenges.Michael;
 
 namespace AmazonAssessments
@@ -68,6 +69,37 @@ namespace AmazonAssessments
             Console.WriteLine($"Result of Sample Case 1: {FindMaxProducts.Execute(sampleCase14)}"); // 20
 
             Console.WriteLine("End Q 04: Michael C 02 \n");
+
+            #endregion
+
+            #region Q 05: Coding Assessment Demo - Attempt 1 - C 01
+
+            Console.WriteLine("Start Q 05: Coding Assessment Demo - Attempt 1 - C 01");
+
+            var example5 = new List<int> { 3, 7, 5, 6, 2 };
+            Console.WriteLine($"Result of Example: {string.Join(',', MinimalHeaviestSetA.Execute(example5))}"); // [6,7]
+
+            var sampleCase05 = new List<int> { 5, 3, 2, 4, 1, 2 };
+            Console.WriteLine($"Result of Sample Case 0: {string.Join(',', MinimalHeaviestSetA.Execute(sampleCase05))}"); // [4,5]
+
+            Console.WriteLine("End Q 05: Coding Assessment Demo - Attempt 1 - C 01 \n");
+
+            #endregion
+
+            #region Q 06: Coding Assessment Demo - Attempt 1 - C 02
+
+            Console.WriteLine("Start Q 06: Coding Assessment Demo - Attempt 1 - C 02");
+
+            var example6 = "|**|*|*";
+            Console.WriteLine($"Result of Example: {string.Join(',', NumberOfItems.Execute(example6, new List<int> { 1, 1 }, new List<int> { 5, 6 }))}"); // [2,3]
+
+            var sampleCase06 = "*|*|";
+            Console.WriteLine($"Result of Sample Case 0: {string.Join(',', NumberOfItems.Execute(sampleCase06, new List<int> { 1 }, new List<int> { 3 }))}"); // [0]
+
+            var sampleCase16 = "*|*|*|";
+            Console.WriteLine($"Result of Sample Case 1: {string.Join(',', NumberOfItems.Execute(sampleCase16, new List<int> { 1 }, new List<int> { 6 }))}"); // [2]
+
+            Console.WriteLine("End Q 06: Coding Assessment Demo - Attempt 1 - C 02 \n");
 
             #endregion
 

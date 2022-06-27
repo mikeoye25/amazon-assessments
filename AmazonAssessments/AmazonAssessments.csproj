@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Challenges\AttemptOne\" />
     <Folder Include="Challenges\AttemptTwo\" />
   </ItemGroup>
 
