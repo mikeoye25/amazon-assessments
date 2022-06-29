@@ -121,7 +121,7 @@ namespace AmazonAssessments
 
             #endregion
 
-            #region Q 07: Coding Assessment Demo - Attempt 2 - C 01
+            #region Q 08: Coding Assessment Demo - Attempt 2 - C 02
 
             Console.WriteLine("Start Q 08: Coding Assessment Demo - Attempt 2 - C 02");
 
